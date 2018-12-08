@@ -1,1 +1,13 @@
 // Specific CSS for your home-page
+body {
+  background-image: url(fond_ecran_bar.jpg);
+  background-attachment:fixed;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Arimo', sans-serif;
+  color: white;
+  font-size: 70px;
+  text-shadow: -1px -1px black, 1px 1px black, -3px 0 4px black;
+}
