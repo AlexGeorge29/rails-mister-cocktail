@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # get 'doses/destroy'
-  root to: 'cocktails#index'
+  root to: 'pages#home'
   resources :cocktails, only: [:index, :show, :create, :new] do
     resources :doses, only: [:create]
   end
