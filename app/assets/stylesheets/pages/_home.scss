@@ -2,37 +2,46 @@
 .home-page-container {
   display: flex;
   flex-direction: column;
-
-  align-items: center;
   background-image: url(modern-bar-jap_type.jpg);
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: auto;
 }
+.main-title {
+  height: 300px;
+  padding-top: 70px;
+  text-align: center;
+}
 .main-title h1{
   font-family: 'Arimo', sans-serif;
   color: white;
-  font-size: 100px;
+  font-size: 50px;
   text-shadow: -1px -1px black, 1px 1px black, -3px 0 4px black;
-  height: 200px;
-  padding-top: 30px;
+
 }
 .menu-container {
   display: flex;
-  flex-direction: row;
-  justify-content: right;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 20px;
+  height: 400px;
+  // justify-content: flex-end;
 }
 
 .index {
   font-family: 'Robotot', sans-serif;
   color: white;
   font-size: 30px;
-  height: 200px;
+
+  // height: 200px;
 }
 .add-cocktail {
   font-family: 'Robotot', sans-serif;
   color: white;
   font-size: 30px;
-  height: 200px;
+  // height: 200px;
+}
+.buton-menu {
+  border: black solid;
 }
