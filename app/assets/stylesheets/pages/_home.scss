@@ -1,22 +1,38 @@
 // Specific CSS for your home-page
-body {
-  background-image: url(fond_ecran_bar.jpg);
-  background-attachment:fixed;
-  background-color: black;
-  background-repeat:no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100rem;
-}
 .home-page-container {
   display: flex;
-  justify-content: center;
-}
+  flex-direction: column;
 
-.home-page-container h1 {
+  align-items: center;
+  background-image: url(modern-bar-jap_type.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.main-title h1{
   font-family: 'Arimo', sans-serif;
   color: white;
-  font-size: 70px;
+  font-size: 100px;
   text-shadow: -1px -1px black, 1px 1px black, -3px 0 4px black;
+  height: 200px;
+  padding-top: 30px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
 
+.index {
+  font-family: 'Robotot', sans-serif;
+  color: white;
+  font-size: 30px;
+  height: 200px;
+}
+.add-cocktail {
+  font-family: 'Robotot', sans-serif;
+  color: white;
+  font-size: 30px;
+  height: 200px;
 }
