@@ -4,11 +4,10 @@
   </div>
   <div class="menu-container">
     <div class="index">
-      <button type="button">See all the cocktails</button>
-
+      <%= link_to("See all the cocktails", cocktails_path, class: "index") %>
     </div>
     <div class="add-cocktail">
-      <button type="button">Add a new cocktails</button>
+      <%= link_to("Add a new cocktail", new_cocktails_path, class: "add-cocktail") %>
     </div>
   </div>
 </div>
